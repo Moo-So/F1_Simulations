@@ -11,7 +11,8 @@ session_2023.load()
 russell_2023 = session_2023.laps.pick_drivers('RUS')
 # Pull Russell's laps specifically (his driver code is RUS)
 
-print(russell_2023)
+#print(russell_2023) updated to the one below so more narrowed
+print(russell_2023[['LapNumber', 'LapTime', 'Compound']])
 
 #doing the same for 2025
 
@@ -22,4 +23,5 @@ session_2025.load()
 russell_2025 = session_2025.laps.pick_drivers('RUS')
 #pull lap for 2025
 
-print(russell_2025)
+#print(russell_2025) updated to below, more narrow
+print(russell_2025[['LapNumber', 'LapTime', 'Compound']])
