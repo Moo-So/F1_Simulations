@@ -47,3 +47,12 @@ russell_2025 = session_2025.laps.pick_drivers('RUS')
 
 #print(russell_2025) updated to below, more narrow
 print(russell_2025[['LapNumber', 'LapTime', 'Compound']])
+
+#
+fastest_lap_2025 = russell_2025.pick_fastest()
+#select fastest lap of race rather than arbitrary one^
+
+telemetry_2025 = fastest_lap_2025.get_telemetry()
+#second by second detail of that lap^
+
+print(telemetry_2025[['X', 'Y', 'Speed']])

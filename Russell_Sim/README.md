@@ -4,6 +4,12 @@ Planning started: July 29, 2026
 First commit: August 4, 2026
 Author: Moo So
 
+Citations:
+Race data provided by FastF1, an open-source Python library for F1 telemetry.
+
+
+-----------------------
+
 Recreating George Russell's Singapore Grand Prix story through data:
 his 2023 last-lap crash and his 2025 win from pole, visualized
 side-by-side using real F1 telemetry.
